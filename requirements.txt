@@ -1,0 +1,41 @@
+
+# Core
+python-dotenv
+pydantic
+requests
+
+# LLM and orchestration
+langchain
+langchain-core
+langchain-community
+langgraph
+langchain-google-genai
+crewai
+
+# Open-source models
+transformers
+sentence-transformers
+torch
+
+# RAG and vector database
+chromadb
+
+# Document processing
+pypdf
+python-docx
+beautifulsoup4
+
+# MCP
+fastmcp
+
+# Frontend
+streamlit
+
+# Database and evaluation
+sqlalchemy
+scikit-learn
+pandas
+numpy
+
+# Utilities
+tenacity

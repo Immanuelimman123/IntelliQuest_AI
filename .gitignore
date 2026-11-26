@@ -1,0 +1,34 @@
+
+# Environment variables
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database and uploaded data
+storage/chroma_db/
+storage/chroma_db_backup/
+storage/uploads/
+storage/reports/
+
+# Local test documents
+Delete_Test.pdf
+
+# Generated files
+*.log
+.DS_Store
