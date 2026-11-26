@@ -13,10 +13,13 @@ langchain-google-genai==4.5.2
 crewai==1.15.44
 langsmith==0.16.0
 
-# Open-source models
+
+# Open-source models (CPU-only for Render)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
 transformers
 sentence-transformers
-torch
+
 
 # RAG and vector database
 chromadb
