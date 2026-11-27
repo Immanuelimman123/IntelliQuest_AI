@@ -15,8 +15,7 @@ langsmith==0.16.0
 
 
 # Open-source models (CPU-only for Render)
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.15.0+cpu
+torch @ https://download.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp313-cp313-manylinux_2_28_x86_64.whl
 transformers
 sentence-transformers
 
